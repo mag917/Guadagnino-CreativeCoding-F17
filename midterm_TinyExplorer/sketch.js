@@ -89,12 +89,12 @@ function createChar(x,y,size){
 	rect(0,0,100,20);
 
 	
-	stroke(150);
-	strokeWeight(5);
-	for(var i = 0; i == 10 ; i ++){
-		line(-50, i * 10, 50, i*10);
-		console.log(i)
+	fill(150);
+	for(var i = 0; i < 5 ; i ++){
+		rect(0, (i-2) * 4, 100, 1 )
+		//console.log(i)
 	}
+
 
 
 
